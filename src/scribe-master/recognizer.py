@@ -1,4 +1,4 @@
-import
+import pyaudio
 import sphinxbase
 import os
 # Import sometimes fails first time around because of a Cython issue.
