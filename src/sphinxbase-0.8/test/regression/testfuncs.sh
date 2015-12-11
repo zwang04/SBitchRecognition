@@ -1,7 +1,7 @@
 # Utility functions and parameters for regression tests
 
 # Predefined directories you may need
-# Stupid broken RedHat autoconf doesn't do /Users/zezenan/Downloads/sphinxbase-0.8
+# Stupid broken RedHat autoconf doesn't do /Users/zhaolun/Desktop/SBitchRecognition/src/sphinxbase-0.8
 builddir="../.."
 sourcedir="../.."
 tests=$sourcedir/test

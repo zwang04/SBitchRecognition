@@ -1,7 +1,7 @@
 # Utility functions and parameters for regression tests
 
 # Predefined directories you may need
-# Stupid broken CMU Facilities autoconf doesn't do /Users/zezenan/Downloads/pocketsphinx-0.8
+# Stupid broken CMU Facilities autoconf doesn't do /Users/zhaolun/Desktop/SBitchRecognition/src/pocketsphinx-0.8
 builddir=../".."
 sourcedir=../".."
 tests=$sourcedir/test

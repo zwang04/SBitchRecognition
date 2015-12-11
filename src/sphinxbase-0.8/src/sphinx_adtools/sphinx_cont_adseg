@@ -38,7 +38,7 @@ relink_command=""
 if test "$libtool_install_magic" = "%%%MAGIC variable%%%"; then
   # install mode needs the following variables:
   generated_by_libtool_version='2.2.6b'
-  notinst_deplibs=' ../../src/libsphinxbase/libsphinxbase.la ../../src/libsphinxad/libsphinxad.la /Users/zezenan/Downloads/sphinxbase-0.8/src/libsphinxbase/libsphinxbase.la'
+  notinst_deplibs=' ../../src/libsphinxbase/libsphinxbase.la ../../src/libsphinxad/libsphinxad.la /Users/zhaolun/Desktop/SBitchRecognition/src/sphinxbase-0.8/src/libsphinxbase/libsphinxbase.la'
 else
   # When we are sourced in execute mode, $file and $ECHO are already set.
   if test "$libtool_execute_magic" != "%%%MAGIC variable%%%"; then
@@ -104,7 +104,7 @@ else
 
   if test -f "$progdir/$program"; then
     # Add our own library path to DYLD_LIBRARY_PATH
-    DYLD_LIBRARY_PATH="/Users/zezenan/Downloads/sphinxbase-0.8/src/libsphinxbase/.libs:/Users/zezenan/Downloads/sphinxbase-0.8/src/libsphinxad/.libs:$DYLD_LIBRARY_PATH"
+    DYLD_LIBRARY_PATH="/Users/zhaolun/Desktop/SBitchRecognition/src/sphinxbase-0.8/src/libsphinxbase/.libs:/Users/zhaolun/Desktop/SBitchRecognition/src/sphinxbase-0.8/src/libsphinxad/.libs:$DYLD_LIBRARY_PATH"
 
     # Some systems cannot cope with colon-terminated DYLD_LIBRARY_PATH
     # The second colon is a workaround for a bug in BeOS R4 sed

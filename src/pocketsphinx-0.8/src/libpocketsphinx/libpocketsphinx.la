@@ -17,7 +17,7 @@ old_library='libpocketsphinx.a'
 inherited_linker_flags='  -framework CoreAudio -framework AudioToolbox'
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/Users/zezenan/Downloads/pocketsphinx-0.8/../sphinxbase-0.8/src/libsphinxad -L/Users/zezenan/Downloads/pocketsphinx-0.8/../sphinxbase-0.8/src/libsphinxbase -L/Users/zezenan/Downloads/pocketsphinx-0.8/../sphinxbase-0.8/src/libsphinxbase/.libs /Users/zezenan/Downloads/pocketsphinx-0.8/../sphinxbase-0.8/src/libsphinxbase/libsphinxbase.la -liconv -lpthread -lm -lblas -llapack'
+dependency_libs=' -L/Users/zhaolun/Desktop/SBitchRecognition/src/pocketsphinx-0.8/../sphinxbase-0.8/src/libsphinxad -L/Users/zhaolun/Desktop/SBitchRecognition/src/pocketsphinx-0.8/../sphinxbase-0.8/src/libsphinxbase -L/Users/zhaolun/Desktop/SBitchRecognition/src/pocketsphinx-0.8/../sphinxbase-0.8/src/libsphinxbase/.libs /Users/zhaolun/Desktop/SBitchRecognition/src/pocketsphinx-0.8/../sphinxbase-0.8/src/libsphinxbase/libsphinxbase.la -liconv -lpthread -lm -lblas -llapack'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

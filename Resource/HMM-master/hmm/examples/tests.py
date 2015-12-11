@@ -3,6 +3,15 @@ Created on Nov 13, 2012
 
 @author: GuyZ
 '''
+import pyaudio
+#import sphinxbase
+import os
+import wave
+# Import sometimes fails first time around because of a Cython issue.
+try:
+    import pocketsphinx
+except ValueError:
+    import pocketsphinx
 
 from continuous.GMHMM import GMHMM
 from discrete.DiscreteHMM import DiscreteHMM

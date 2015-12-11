@@ -1,6 +1,7 @@
 import pyaudio
 import sphinxbase
 import os
+import wave
 # Import sometimes fails first time around because of a Cython issue.
 try:
     import pocketsphinx
@@ -17,8 +18,8 @@ DICTD = os.path.join(BASE_PATH, "dict/cmu07a.dic")
 CHUNK = 128 # The size of each audio chunk coming from the input device.
 FORMAT = pyaudio.paInt16 # Should not be changed, as this format is best for speech recognition.
 RATE = 16000 # Speech recognition only works well with this rate.  Don't change unless your microphone demands it.
-RECORD_SECONDS = 5 # Number of seconds to record, can be changed.
-WAVE_OUTPUT_FILENAME = "output.wav" # Where to save the recording from the microphone.
+RECORD_SECONDS = 3 # Number of seconds to record, can be changed.
+WAVE_OUTPUT_FILENAME = "fuck.wav" # Where to save the recording from the microphone.
 
 def find_device(p, tags):
     """
@@ -85,7 +86,7 @@ def recognize(wav_file):
     """
     Run speech recognition on a given file.
     """
-    speech_rec = pocketsphinx.Decoder(hmm=HMDIR, lm=LMDIR, dict=DICTD)
+    speech_rec = sphinxbase.Decoder(hmm=HMDIR, lm=LMDIR, dict=DICTD)
     wav_file = file(wav_file, 'rb')
     speech_rec.decode_raw(wav_file)
     result = speech_rec.get_hyp()
@@ -94,5 +95,6 @@ def recognize(wav_file):
 # Run the thing!
 if __name__ == '__main__':
     save_audio(WAVE_OUTPUT_FILENAME)
-    result = recognize(WAVE_OUTPUT_FILENAME)
+    #result = recognize(WAVE_OUTPUT_FILENAME)
+    result = recognize("brian.wav")
     print "You just said: {0}".format(result[0])

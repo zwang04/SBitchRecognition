@@ -2,9 +2,372 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e04bf3e-2ef4-4bf0-9cc1-aa1f89a764b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Resource/HMM" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/python/build/lib.macosx-10.10-intel-2.7/pocketsphinx.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/python/build/temp.macosx-10.10-intel-2.7/pocketsphinx.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/python/dist/PocketSphinx-0.8-py2.7-macosx-10.10-intel.egg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sphinxbase-0.8/python/build/lib.macosx-10.10-intel-2.7/sphinxbase.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sphinxbase-0.8/python/build/temp.macosx-10.10-intel-2.7/sphinxbase.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sphinxbase-0.8/python/dist/SphinxBase-0.8-py2.7-macosx-10.10-intel.egg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/acmod.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/acmod.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/bin_mdef.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/bin_mdef.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/blkarray_list.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/blkarray_list.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/dict.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/dict.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/dict2pid.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/dict2pid.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/fsg_history.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/fsg_history.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/fsg_lextree.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/fsg_lextree.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/fsg_search.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/fsg_search.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/hmm.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/hmm.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/libpocketsphinx.1.dylib" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/libpocketsphinx.1.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/libpocketsphinx.1.dylib.dSYM/Contents/Resources/DWARF/libpocketsphinx.1.dylib" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/libpocketsphinx.1.dylib.dSYM/Contents/Resources/DWARF/libpocketsphinx.1.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/libpocketsphinx.a" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/libpocketsphinx.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/mdef.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/mdef.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ms_gauden.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ms_gauden.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ms_mgau.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ms_mgau.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ms_senone.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ms_senone.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ngram_search.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ngram_search.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ngram_search_fwdflat.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ngram_search_fwdflat.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ngram_search_fwdtree.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ngram_search_fwdtree.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/phone_loop_search.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/phone_loop_search.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/pocketsphinx.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/pocketsphinx.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ps_alignment.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ps_alignment.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ps_lattice.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ps_lattice.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ps_mllr.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ps_mllr.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ptm_mgau.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/ptm_mgau.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/s2_semi_mgau.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/s2_semi_mgau.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/state_align_search.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/state_align_search.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/tmat.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/tmat.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/vector.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/vector.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/acmod.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/acmod.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/bin_mdef.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/bin_mdef.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/blkarray_list.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/blkarray_list.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/dict.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/dict.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/dict2pid.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/dict2pid.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/fsg_history.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/fsg_history.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/fsg_lextree.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/fsg_lextree.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/fsg_search.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/fsg_search.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/hmm.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/hmm.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/mdef.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/mdef.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ms_gauden.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ms_gauden.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ms_mgau.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ms_mgau.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ms_senone.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ms_senone.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ngram_search.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ngram_search.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ngram_search_fwdflat.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ngram_search_fwdflat.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ngram_search_fwdtree.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ngram_search_fwdtree.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/phone_loop_search.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/phone_loop_search.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/pocketsphinx.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/pocketsphinx.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ps_alignment.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ps_alignment.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ps_lattice.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ps_lattice.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ps_mllr.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ps_mllr.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ptm_mgau.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/ptm_mgau.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/s2_semi_mgau.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/s2_semi_mgau.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/state_align_search.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/state_align_search.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/tmat.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/tmat.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/vector.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/vector.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.libs/pocketsphinx_batch" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.libs/pocketsphinx_batch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.libs/pocketsphinx_continuous" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.libs/pocketsphinx_continuous" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.libs/pocketsphinx_mdef_convert" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.libs/pocketsphinx_mdef_convert" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/batch.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/batch.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/continuous.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/continuous.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/mdef_convert.o" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/mdef_convert.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scribe-master/hmm/feature_transform" afterPath="$PROJECT_DIR$/scribe-master/hmm/feature_transform" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scribe-master/hmm/means" afterPath="$PROJECT_DIR$/scribe-master/hmm/means" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scribe-master/hmm/mixture_weights" afterPath="$PROJECT_DIR$/scribe-master/hmm/mixture_weights" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scribe-master/hmm/transition_matrices" afterPath="$PROJECT_DIR$/scribe-master/hmm/transition_matrices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scribe-master/hmm/variances" afterPath="$PROJECT_DIR$/scribe-master/hmm/variances" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.libs/ad_base.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.libs/ad_base.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.libs/cont_ad_base.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.libs/cont_ad_base.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.libs/libsphinxad.0.dylib" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.libs/libsphinxad.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.libs/libsphinxad.0.dylib.dSYM/Contents/Resources/DWARF/libsphinxad.0.dylib" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.libs/libsphinxad.0.dylib.dSYM/Contents/Resources/DWARF/libsphinxad.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.libs/libsphinxad.a" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.libs/libsphinxad.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/ad_base.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/ad_base.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/cont_ad_base.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/cont_ad_base.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/.libs/libsphinxbase.1.dylib" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/.libs/libsphinxbase.1.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/.libs/libsphinxbase.1.dylib.dSYM/Contents/Resources/DWARF/libsphinxbase.1.dylib" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/.libs/libsphinxbase.1.dylib.dSYM/Contents/Resources/DWARF/libsphinxbase.1.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/.libs/libsphinxbase.a" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/.libs/libsphinxbase.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_interface.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_interface.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_sigproc.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_sigproc.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_warp.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_warp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_warp_affine.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_warp_affine.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_warp_inverse_linear.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_warp_inverse_linear.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_warp_piecewise_linear.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fe_warp_piecewise_linear.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fixlog.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/fixlog.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/libsphinxfe.a" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/libsphinxfe.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/yin.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.libs/yin.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_interface.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_interface.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_sigproc.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_sigproc.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_warp.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_warp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_warp_affine.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_warp_affine.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_warp_inverse_linear.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_warp_inverse_linear.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_warp_piecewise_linear.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fe_warp_piecewise_linear.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fixlog.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/fixlog.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/yin.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/yin.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/agc.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/agc.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/cmn.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/cmn.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/cmn_prior.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/cmn_prior.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/feat.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/feat.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/lda.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/lda.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/libsphinxfeat.a" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.libs/libsphinxfeat.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/agc.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/agc.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/cmn.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/cmn.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/cmn_prior.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/cmn_prior.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/feat.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/feat.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/lda.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/lda.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/fsg_model.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/fsg_model.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/jsgf.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/jsgf.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/jsgf_parser.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/jsgf_parser.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/jsgf_scanner.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/jsgf_scanner.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/libsphinxlm.a" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/libsphinxlm.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/lm3g_model.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/lm3g_model.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/ngram_model.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/ngram_model.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/ngram_model_arpa.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/ngram_model_arpa.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/ngram_model_dmp.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/ngram_model_dmp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/ngram_model_dmp32.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/ngram_model_dmp32.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/ngram_model_set.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.libs/ngram_model_set.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/fsg_model.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/fsg_model.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/jsgf.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/jsgf.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/jsgf_parser.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/jsgf_parser.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/jsgf_scanner.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/jsgf_scanner.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/lm3g_model.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/lm3g_model.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/ngram_model.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/ngram_model.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/ngram_model_arpa.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/ngram_model_arpa.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/ngram_model_dmp.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/ngram_model_dmp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/ngram_model_dmp32.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/ngram_model_dmp32.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/ngram_model_set.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/ngram_model_set.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/bio.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/bio.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/bitvec.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/bitvec.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/case.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/case.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/ckd_alloc.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/ckd_alloc.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/cmd_ln.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/cmd_ln.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/dtoa.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/dtoa.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/err.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/err.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/filename.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/filename.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/genrand.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/genrand.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/glist.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/glist.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/hash_table.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/hash_table.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/heap.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/heap.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/huff_code.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/huff_code.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/info.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/info.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/libsphinxutil.a" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/libsphinxutil.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/listelem_alloc.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/listelem_alloc.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/logmath.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/logmath.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/matrix.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/matrix.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/mmio.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/mmio.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/pio.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/pio.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/profile.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/profile.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/sbthread.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/sbthread.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/strfuncs.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/strfuncs.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/unlimit.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/unlimit.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/utf8.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.libs/utf8.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/bio.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/bio.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/bitvec.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/bitvec.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/case.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/case.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/ckd_alloc.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/ckd_alloc.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/cmd_ln.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/cmd_ln.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/dtoa.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/dtoa.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/err.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/err.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/filename.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/filename.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/genrand.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/genrand.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/glist.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/glist.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/hash_table.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/hash_table.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/heap.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/heap.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/huff_code.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/huff_code.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/info.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/info.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/listelem_alloc.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/listelem_alloc.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/logmath.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/logmath.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/matrix.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/matrix.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/mmio.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/mmio.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/pio.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/pio.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/profile.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/profile.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/sbthread.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/sbthread.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/strfuncs.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/strfuncs.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/unlimit.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/unlimit.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/utf8.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/utf8.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.libs/sphinx_cont_adseg" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.libs/sphinx_cont_adseg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.libs/sphinx_cont_fileseg" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.libs/sphinx_cont_fileseg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.libs/sphinx_pitch" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.libs/sphinx_pitch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/cont_adseg.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/cont_adseg.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/cont_fileseg.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/cont_fileseg.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/sphinx_pitch.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/sphinx_pitch.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_cepview/.libs/sphinx_cepview" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_cepview/.libs/sphinx_cepview" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_cepview/main_cepview.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_cepview/main_cepview.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_fe/.libs/sphinx_fe" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_fe/.libs/sphinx_fe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_fe/sphinx_fe.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_fe/sphinx_fe.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_jsgf2fsg/.libs/sphinx_jsgf2fsg" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_jsgf2fsg/.libs/sphinx_jsgf2fsg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_jsgf2fsg/main.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_jsgf2fsg/main.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/.libs/sphinx_lm_convert" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/.libs/sphinx_lm_convert" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/.libs/sphinx_lm_eval" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/.libs/sphinx_lm_eval" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/sphinx_lm_convert.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/sphinx_lm_convert.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/sphinx_lm_eval.o" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/sphinx_lm_eval.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Resource/HMM-master/hmm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Resource/HMM-master/hmm/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Resource/HMM-master/hmm/examples/tests.py" afterPath="$PROJECT_DIR$/../Resource/HMM-master/hmm/examples/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/config.log" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/config.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/config.status" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/config.status" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/doc/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/doc/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/doc/doxyfile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/doc/doxyfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/include/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/include/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/libtool" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/libtool" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/model/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/model/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/model/hmm/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/model/hmm/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/model/lm/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/model/lm/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/python/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/python/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/python/pocketsphinx.c" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/python/pocketsphinx.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/python/setup.py" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/python/setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/gst-plugin/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/gst-plugin/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/acmod.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/acmod.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/bin_mdef.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/bin_mdef.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/blkarray_list.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/blkarray_list.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/dict.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/dict.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/dict2pid.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/dict2pid.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/fsg_history.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/fsg_history.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/fsg_lextree.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/fsg_lextree.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/fsg_search.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/fsg_search.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/hmm.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/hmm.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/mdef.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/mdef.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ms_gauden.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ms_gauden.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ms_mgau.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ms_mgau.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ms_senone.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ms_senone.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ngram_search.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ngram_search.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ngram_search_fwdflat.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ngram_search_fwdflat.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ngram_search_fwdtree.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ngram_search_fwdtree.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/phone_loop_search.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/phone_loop_search.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/pocketsphinx.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/pocketsphinx.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ps_alignment.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ps_alignment.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ps_lattice.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ps_lattice.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ps_mllr.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ps_mllr.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ptm_mgau.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/ptm_mgau.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/s2_semi_mgau.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/s2_semi_mgau.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/state_align_search.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/state_align_search.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/tmat.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/tmat.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/vector.Plo" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.deps/vector.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/libpocketsphinx.lai" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/.libs/libpocketsphinx.lai" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/libpocketsphinx.la" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/libpocketsphinx/libpocketsphinx.la" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.deps/batch.Po" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.deps/batch.Po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.deps/continuous.Po" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.deps/continuous.Po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.deps/mdef_convert.Po" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/.deps/mdef_convert.Po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/pocketsphinx_batch" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/pocketsphinx_batch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/pocketsphinx_continuous" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/pocketsphinx_continuous" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/pocketsphinx_mdef_convert" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/src/programs/pocketsphinx_mdef_convert" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/test/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/test/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/test/regression/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/test/regression/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/test/testfuncs.sh" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/test/testfuncs.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketsphinx-0.8/test/unit/Makefile" afterPath="$PROJECT_DIR$/pocketsphinx-0.8/test/unit/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scribe-master/hmm/README" afterPath="$PROJECT_DIR$/scribe-master/hmm/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scribe-master/hmm/feat.params" afterPath="$PROJECT_DIR$/scribe-master/hmm/feat.params" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scribe-master/hmm/mdef" afterPath="$PROJECT_DIR$/scribe-master/hmm/mdef" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scribe-master/recognizer.py" afterPath="$PROJECT_DIR$/scribe-master/recognizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/config.log" afterPath="$PROJECT_DIR$/sphinxbase-0.8/config.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/config.status" afterPath="$PROJECT_DIR$/sphinxbase-0.8/config.status" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/doc/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/doc/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/include/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/include/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/include/sphinxbase/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/include/sphinxbase/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/libtool" afterPath="$PROJECT_DIR$/sphinxbase-0.8/libtool" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/python/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/python/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/python/sphinxbase.c" afterPath="$PROJECT_DIR$/sphinxbase-0.8/python/sphinxbase.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.deps/ad_base.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.deps/ad_base.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.deps/cont_ad_base.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/.deps/cont_ad_base.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/libsphinxad.la" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxad/libsphinxad.la" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_interface.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_interface.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_sigproc.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_sigproc.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_warp.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_warp.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_warp_affine.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_warp_affine.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_warp_inverse_linear.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_warp_inverse_linear.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_warp_piecewise_linear.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fe_warp_piecewise_linear.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fixlog.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/fixlog.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/yin.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/.deps/yin.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/fe/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.deps/agc.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.deps/agc.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.deps/cmn.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.deps/cmn.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.deps/cmn_prior.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.deps/cmn_prior.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.deps/feat.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.deps/feat.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.deps/lda.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/.deps/lda.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/feat/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/fsg_model.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/fsg_model.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/jsgf.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/jsgf.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/jsgf_parser.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/jsgf_parser.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/jsgf_scanner.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/jsgf_scanner.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/lm3g_model.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/lm3g_model.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/ngram_model.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/ngram_model.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/ngram_model_arpa.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/ngram_model_arpa.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/ngram_model_dmp.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/ngram_model_dmp.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/ngram_model_dmp32.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/ngram_model_dmp32.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/ngram_model_set.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/.deps/ngram_model_set.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/lm/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/bio.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/bio.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/bitvec.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/bitvec.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/case.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/case.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/ckd_alloc.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/ckd_alloc.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/cmd_ln.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/cmd_ln.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/dtoa.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/dtoa.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/err.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/err.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/filename.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/filename.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/genrand.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/genrand.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/glist.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/glist.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/hash_table.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/hash_table.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/heap.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/heap.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/huff_code.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/huff_code.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/info.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/info.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/listelem_alloc.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/listelem_alloc.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/logmath.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/logmath.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/matrix.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/matrix.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/mmio.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/mmio.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/pio.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/pio.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/profile.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/profile.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/sbthread.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/sbthread.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/strfuncs.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/strfuncs.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/unlimit.Plo" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/.deps/unlimit.Plo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/libsphinxbase/util/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.deps/cont_adseg.Po" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.deps/cont_adseg.Po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.deps/cont_fileseg.Po" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.deps/cont_fileseg.Po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.deps/sphinx_pitch.Po" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/.deps/sphinx_pitch.Po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/sphinx_cont_adseg" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/sphinx_cont_adseg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/sphinx_cont_fileseg" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/sphinx_cont_fileseg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/sphinx_pitch" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_adtools/sphinx_pitch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_cepview/.deps/main_cepview.Po" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_cepview/.deps/main_cepview.Po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_cepview/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_cepview/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_cepview/sphinx_cepview" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_cepview/sphinx_cepview" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_fe/.deps/sphinx_fe.Po" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_fe/.deps/sphinx_fe.Po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_fe/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_fe/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_fe/sphinx_fe" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_fe/sphinx_fe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_jsgf2fsg/.deps/main.Po" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_jsgf2fsg/.deps/main.Po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_jsgf2fsg/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_jsgf2fsg/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_jsgf2fsg/sphinx_jsgf2fsg" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_jsgf2fsg/sphinx_jsgf2fsg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/.deps/sphinx_lm_convert.Po" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/.deps/sphinx_lm_convert.Po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/.deps/sphinx_lm_eval.Po" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/.deps/sphinx_lm_eval.Po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/sphinx_lm_convert" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/sphinx_lm_convert" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/sphinx_lm_eval" afterPath="$PROJECT_DIR$/sphinxbase-0.8/src/sphinx_lmtools/sphinx_lm_eval" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/regression/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/regression/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/regression/testfuncs.sh" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/regression/testfuncs.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_ad/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_ad/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_alloc/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_alloc/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_bitvec/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_bitvec/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_case/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_case/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_cmdln/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_cmdln/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_fe/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_fe/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_feat/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_feat/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_fsg/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_fsg/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_hash/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_hash/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_lineiter/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_lineiter/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_logmath/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_logmath/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_matrix/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_matrix/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_ngram/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_ngram/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_string/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_string/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_thread/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_thread/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_util/Makefile" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/test_util/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/testfuncs.sh" afterPath="$PROJECT_DIR$/sphinxbase-0.8/test/unit/testfuncs.sh" />
     </list>
     <ignored path="src.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +388,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28301886">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding>
+                <element signature="e#357#388#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recognizer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scribe-master/recognizer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.96359223">
+              <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/speech_recognition/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="422" column="0" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,6 +431,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/scribe-master/recognizer.py" />
       </list>
     </option>
   </component>
@@ -76,6 +464,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -86,6 +475,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.10 (/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -98,19 +491,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scribe-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FullScreen" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Resource/HMM-master/hmm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.recognizer">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,6 +530,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="src" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="recognizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scribe-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="src" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scribe-master/recognizer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -250,12 +673,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.recognizer" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.recognizer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -272,20 +697,29 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2390625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25019857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36202186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39854014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -306,16 +740,76 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#357#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scribe-master/recognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/speech_recognition/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="422" column="0" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28301886">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#357#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#357#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/speech_recognition/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="422" column="0" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#357#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scribe-master/recognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.96359223">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

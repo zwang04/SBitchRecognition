@@ -61,15 +61,15 @@ try:
 except KeyError:
     pygtk_includes = []
 
-# If there is no /Users/zezenan/Downloads/pocketsphinx-0.8/../sphinxbase-0.8 and friends use pkg-config
-if '/Users/zezenan/Downloads/pocketsphinx-0.8/../sphinxbase-0.8' == '' or '/Users/zezenan/Downloads/pocketsphinx-0.8/../sphinxbase-0.8' == '':
+# If there is no /Users/zhaolun/Desktop/SBitchRecognition/src/pocketsphinx-0.8/../sphinxbase-0.8 and friends use pkg-config
+if '/Users/zhaolun/Desktop/SBitchRecognition/src/pocketsphinx-0.8/../sphinxbase-0.8' == '' or '/Users/zhaolun/Desktop/SBitchRecognition/src/pocketsphinx-0.8/../sphinxbase-0.8' == '':
     sbconf = pkgconfig('sphinxbase')
     sb_libdirs = sbconf.get('library_dirs', [])
     sb_includes = sbconf.get('include_dirs', [])
 else:
-    sb_includes = ['/Users/zezenan/Downloads/pocketsphinx-0.8/../sphinxbase-0.8/include',
-                   '/Users/zezenan/Downloads/pocketsphinx-0.8/../sphinxbase-0.8/include']
-    sb_libdirs = ['/Users/zezenan/Downloads/pocketsphinx-0.8/../sphinxbase-0.8/src/libsphinxbase/.libs']
+    sb_includes = ['/Users/zhaolun/Desktop/SBitchRecognition/src/pocketsphinx-0.8/../sphinxbase-0.8/include',
+                   '/Users/zhaolun/Desktop/SBitchRecognition/src/pocketsphinx-0.8/../sphinxbase-0.8/include']
+    sb_libdirs = ['/Users/zhaolun/Desktop/SBitchRecognition/src/pocketsphinx-0.8/../sphinxbase-0.8/src/libsphinxbase/.libs']
 
 libraries = ['pocketsphinx', 'sphinxbase']
 if sys.platform == "cygwin":

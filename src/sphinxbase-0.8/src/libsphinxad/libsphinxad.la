@@ -17,7 +17,7 @@ old_library='libsphinxad.a'
 inherited_linker_flags=' '
 
 # Libraries that this one depends upon.
-dependency_libs=' /Users/zezenan/Downloads/sphinxbase-0.8/src/libsphinxbase/libsphinxbase.la -liconv -lpthread -lm -lblas -llapack'
+dependency_libs=' /Users/zhaolun/Desktop/SBitchRecognition/src/sphinxbase-0.8/src/libsphinxbase/libsphinxbase.la -liconv -lpthread -lm -lblas -llapack'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
