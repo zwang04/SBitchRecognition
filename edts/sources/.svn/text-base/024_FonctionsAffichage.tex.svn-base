@@ -1,0 +1,34 @@
+\begin{frame}{Élements à afficher}
+	\begin{itemize}
+		\item Outil de sélection de la donnée à visualiser ;
+		\pause
+		\item Carte :
+		\pause
+		\begin{itemize}
+		\item Visualisation des valeurs (plages colorées ou diagrammes) ;
+		\item Zoom simple et dimensionnel sur une zone ;
+		\item Déplacement.
+		\end{itemize}
+		\pause
+		\item Frise chronologique \textit{(timeline)} :
+		\pause
+		\begin{itemize}
+		\item Permet la sélection temporelle ;
+		\end{itemize}
+		\pause
+		\item Diagrammes :
+		\pause
+		\begin{itemize}
+		\item Bibliothèque;
+		\item Sélection des dimensions pour le diagramme.
+		\end{itemize}
+		\pause
+		\item Tableaux :
+		\pause
+		\begin{itemize}
+		\item Affichage des valeurs de la donnée;
+		\item Sélection des dimensions.
+		\end{itemize}
+		
+	\end{itemize}
+\end{frame}

@@ -1,0 +1,11 @@
+\frame{
+	\frametitle{Composant sous-traité -- Solap4py}
+	\begin{tikzpicture}[overlay]
+		\node at (10,-1) {\includegraphics[scale=0.5]{images/composants-solap4py.png}};
+	\end{tikzpicture}
+	\begin{itemize}
+		\item Composant sous-traité;
+		\item Librairie python;
+		\item Abstraction de GeoMondrian.
+	\end{itemize}
+}

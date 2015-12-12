@@ -1,0 +1,56 @@
+\begin{frame}{Récupération des données}
+	\begin{itemize}
+		\item Sélection de la donnée étudiée;
+		\pause
+		\item Sélection de la partie des valeurs, pour chaque dimension \textit{(scope)}~:
+			\begin{itemize}
+				\pause
+				\item Tout;
+				\item Ensemble de valeur.
+			\end{itemize}
+		\pause
+		\item Agrégation des valeurs sélectionnées \textit{(dice)}~:
+		\pause
+			\begin{itemize}
+				\item Choix du niveau pour chaque dimension sur laquelle on veut un «\textit{dice}»;
+				\item Agrégation totale des autres dimensions;
+				\item Choix de la fonction d'agrégation (somme, moyenne, min, max, ...).
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Exemple de sélection de données}
+	\begin{columns}[c]
+		\column{6cm}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=5cm]{images/FranceChoropleth}
+			\caption{Carte choroplèthe de la france}
+		\end{figure}
+			%http://pierreandrews.net/TheDataJournalismHandbook/onefilehtml/1.0/en/#_how_to_visualize_data	
+		\column{6cm}
+		\begin{itemize}		
+			\item Dimension géographique~:
+				\begin{itemize}
+					\item Sélection de la France uniquement;
+					\item Agrégation au niveau des départements.
+				\end{itemize}
+		\end{itemize}
+		\end{columns}	
+\end{frame}
+
+\begin{frame}{Exemple de sélection de données}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=9cm]{images/diceSemestre}
+		\caption{Dimension temporelle sélection intervalle 2009-2014 niveau d'agrégation semestriel.}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Exemple de sélection de données}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=9cm]{images/diceAnnee}
+		\caption{Dimension temporelle sélection intervalle 2009-2014 niveau d'agrégation annuel.}
+	\end{figure}
+\end{frame}

@@ -1,0 +1,24 @@
+\begin{frame}{Equipe \textsc{EastPIC}}
+	
+	\begin{figure}
+	\centering
+	\includegraphics[width=10cm]{images/organigramme.png}
+	\caption{Organigramme de l'équipe}
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}{Client : Centre de Recherche Public Henri Tudor}
+
+	\begin{center}
+	   \includegraphics[width=3cm]{images/tudor}
+	\end{center}
+	
+	\begin{itemize}
+		\item Centre basé au Luxembourg;
+		\item Recherche dans de nombreux domaines technologiques (matériaux, environnement, santé, etc);
+		\item En particulier le domaine de la logistique et du transport dans le cas de notre PIC;
+		\item Notamment partenaire du projet \textit{Weastflows} (développement du fret en Europe de l'Ouest).
+	\end{itemize}
+	
+\end{frame}

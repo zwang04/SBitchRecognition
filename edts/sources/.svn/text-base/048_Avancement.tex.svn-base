@@ -1,0 +1,21 @@
+\begin{frame}{Avancement actuel}
+	\begin{itemize}
+		\item Actuellement fin de la première semaine du sprint 2~:
+		\pause
+		\begin{itemize}
+			\item Onglet créé;
+			\pause
+			\item Premiers tests réalisés;
+			\pause
+			\item Panneaux créés mais pas encore synchronisés~:
+				\begin{itemize}
+					\item Carte;
+					\item Sélection de données;
+					\item Graphique;
+					\item Table.
+				\end{itemize}
+			\pause
+			\item Interface avec le fournisseur définie.
+		\end{itemize}
+	\end{itemize}
+\end{frame}

@@ -1,0 +1,28 @@
+\begin{frame}{Objectifs des livraisons}
+	\begin{itemize}
+		\item Premier semestre~:
+			\pause
+			\begin{itemize}
+				\item Définition l'architecture de l'application;
+				\pause
+				\item Version utilisable et maintenable avec les fonctionnalités principales~:
+				\pause
+					\begin{itemize}
+						\item Sélection des données fonctionnelle ;
+						\item Affichage sur une carte choroplèthe et une frise chronologique ;
+						\item Affichage sur des diagrammes classiques ;
+						\item Navigation dans les données via la carte et la frise chronologique.
+					\end{itemize}
+			\end{itemize}
+			\pause
+		\item Deuxième semestre~:
+			\pause
+			\begin{itemize}
+				\item Amélioration des fonctionnalités existantes ;
+				\pause
+				\item Sélection et agrégation plus complexe des données ;
+				\pause
+				\item Création d'une collection complète de graphiques.
+			\end{itemize}
+	\end{itemize}
+\end{frame}

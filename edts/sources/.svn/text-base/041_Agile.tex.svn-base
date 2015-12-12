@@ -1,0 +1,104 @@
+\begin{frame}{Agile : pourquoi ?}
+	\begin{itemize}
+		% Le principe fondamental de l'Agilité est d'éviter les dépassements de budget, l'effet tunnel et le sacrifice de la qualité pour ne pas augmenter les précédents.
+		% Pour cela, on adapte le scope du projet, c'est à dire son ambition en terme de fonctionnalités.
+		\item Maintenir constants coûts, délais et qualité en adaptant le \emph{scope};
+		% Le marché se joue maintenant. Il est donc nécessaire dans un environnement concurrentiel, de se positionner le plus rapidement sur le marché et pouvoir présenter un produit viable même s'il ne présente pas encore toutes les fonctionnalités finales, du moment qu'il fonctionne.
+		\item Présenter rapidement un produit qui fonctionne;
+		% Dans un marché naissant tel que celui-ci, il est difficile d'identifier tous les besoins.
+		% Les besoins identifiés aujourd'hui seront peut-être totalement différents dans 1 an.
+		\item Progresser sans connaître tous les besoins;
+		% Il est aussi appréciable de pouvoir revoir la priorisation des fonctionnalités à mesure que l'on cerne mieux les besoins de l'utilisateur.
+		\item S'adapter au changement d'avis et de besoins.
+	\end{itemize}
+
+\end{frame}
+
+% D'abord un peu de vocabulaire employé lorsque l'on parle de projets en méthodes agiles:
+% \begin{frame}{Agile : notions}
+% 	\begin{description}
+% 		% Une itération dans le cycle de développement
+% 		\item[Sprint :] Une itération, un incrément ;
+% 		% Correspond à une ou plusieurs fonctionnalités à développer
+% 		\item[User story :] Un scénario de cas d'utilisation du produit ;
+% 		\item[Product Owner :] Le client ou son représentant ;
+% 		\item[Mêlée :] Réunion quotidienne de l'équipe pour présenter le travail fait la veille et planifier la journée ;
+% 		\item[Backlog du produit :] Ensemble des \emph{user stories} souhaitées et priorisées par le \emph{Product Owner} ;
+% 		\item[Backlog du sprint :] Ensemble des \emph{user stories} évaluées par l'équipe et à réaliser au cours du sprint ;
+% 	\end{description}
+% \end{frame}
+
+ \begin{frame}{Agile : valeurs}
+ 	\begin{itemize}
+		% Les méthodes agiles posent 4 principes de base:
+		% La communication est d'une importance capitale dans tout projet, on préfère donc
+		\item Les individus et leurs interactions, plutôt que les processus et les outils;
+		% L'application DOIT fonctionner. La documentation n'est pas négligée mais sa rédaction n'est pas un but en soi.
+		\item Un logiciel fonctionnel plutôt qu'une documentation pléthorique;
+		% Le client n'est pas seulement présent en début de projet pour les spécifications et à la fin pour la livraison. Il est impliqué dans le développement.
+		\item La collaboration avec le Client plutôt que la négociation de contrat;
+		% La planification initiale et l'architecture du produit doivent être flexibles pour permettre au client de faire évoluer sa demande.
+		\item L'adaptation au changement plutôt que le suivi d'un plan.
+ 	\end{itemize}
+ \end{frame}
+
+ \begin{frame}{Agile : synthèse des principes}
+	 % De ces 4 valeurs découlent 12 principes. En synthèse,
+	\begin{itemize}
+		% La satisfaction du client est la priorité, le changement dans les plans n'est pas redouté ou combattu.
+		\item La satisfaction du client d'abord, le changement accueilli positivement;
+		% Avec des livraisons fréquentes, on obtient un retour rapide de la part du client et de l'utilisateur sur l'avancée du projet.
+		% Il permet au client de commencer à exploiter la valeur ajoutée apportée par le produit incomplet.
+		% Ce retour évite aussi de s'engager trop longtemps dans une mauvaise direction, par exemple suite à un problème de compréhension.
+		\item Des livraisons fréquentes d'un logiciel opérationnel;
+		% L'utilisateur est impliqué dans le développement et teste fréquamment le produit.
+		\item La collaboration avec l'utilisateur;
+		% La motivation de l'équipe est essentielle. Elle doit être motivée par le projet.
+		% Son travail est valorisé fréquamment lorsqu'elle présente les nouveautés du produit au client car elles sont concrètes.
+		\item Une équipe motivée et auto-organisée;
+		% la charge de travail est ajustée à chaque sprint pour permettre de tenir les délais.
+		% L'équipe vise l'excellence technique afin de conserver un produit clair et maintenable.
+		% Cela passe par la conception incrémentale, le refactoring et la recherche de solutions simples.
+		\item Un rythme constant et l'excellence technique comme objectifs en cherchant la simplicité;
+		% Régulièrement, au moins une fois en fin de sprint, l'équipe cherche les méthodes et outils qu'elle peut mettre en place pour être plus productive dans la suite du projet.
+		\item Une réfléxion régulière sur les moyens d'améliorer l'efficacité.
+	\end{itemize}
+ \end{frame}
+
+ \begin{frame}{Agile : cycle de développement}
+	 \begin{figure}[p]
+	 	\centering
+		\includegraphics[scale=0.4, clip, trim=0cm 2cm 0cm 2.6cm]{images/diapoAgileTudor.pdf}
+	 	\caption{Le cycle de développement agile}
+	 	\label{fig:cycle_developpement_agile}
+	 \end{figure}
+ \end{frame}
+
+\begin{frame}{Agile : comment?}
+	% Comment met-on en place l'Agilité au sein du PIC ?
+	\begin{itemize}
+		% Nous utilisions le service PivotalTracker pour définir les fonctionnalités, les préciser, les prioriser et marquer leur réalisation.
+		% C'est un moyen de communication efficace avec notre client.
+		\item PivotalTracker pour le \emph{backlog};
+		% Nous utilisons un Scrum Board pour plus de détail à propos de l'intégration de la fonctionnalité dans le produit en développement.
+		% Il nous permet aussi de redécouper les user stories en plus petites tâches.
+		\item Un \emph{Scrum Board};
+		% Nous recherchons le plus possible à travailler selon le principe du Test Driven Development.
+		% Il s'agit d'écrire des tests automatisés définissant le résultat attendu avant d'écrire le code minimal nécessaire au succès des tests.
+		% Cette pratique nous permet d'obtenir une couverture de tests très importante et d'utiliser les tests comme une définition des besoins de l'application.
+		% Elle nous pousse aussi à écrire et maintenir un code clair et concis.
+		\item Développement Dirigé par les Tests;
+		% Puisque nous automatisons au maximum les tests, nous poussons la logique plus loin en automatisant l'intégration des nouvelles fonctionnalités à la branche de développement.
+		% C'est un processus d'intégration continue. Par ce processus, nous automatisons l'exécution des tests ainsi que plusieurs outils d'analyse du code permettant d'identifier des points où s'accumule de la dette technique.
+		% Par ce processus, nous pouvons prendre facilement et rapidement la décision d'intégrer les fonctionnalités au produit en toute confiance.
+		% Par la même occasion, on réduit fortement le temps passé par les développeurs à réaliser des tâches répétitives en automatisant tout ce que nous pouvons.
+		% Ce gain de temps est autant de productivité supplémentaire pour les tâches qui apportent de la valeur.
+		\item Intégration continue.
+		
+		\begin{figure}[p]
+		 	\centering
+			\includegraphics[width=6cm]{images/scrumBoard}
+		 	\caption{Le Scrum Board}
+	 \end{figure}
+	\end{itemize}
+\end{frame}

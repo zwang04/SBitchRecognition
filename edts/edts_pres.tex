@@ -1,0 +1,150 @@
+\documentclass[compress,xcolor=table]{beamer}
+
+\usepackage[french]{babel}
+\selectlanguage{french}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\usepackage{pgf-pie}
+\usepackage{pgfplots}
+\usepackage{pdfpages}
+\usepackage{vocabulaireEpicUnityPresentation}
+\usepackage{commun/vocabulaireCommun}
+\usepackage{hyperref}
+\usepackage{movie15}
+
+\usetheme{eastpic}
+
+% code pour pouvoir mettre des cellcolor qui dépendent de la frame...
+\makeatletter
+\def\rowcolor{\noalign{\ifnum0=`}\fi\bmr@rowcolor}
+\newcommand<>{\bmr@rowcolor}{%
+    \alt#1%
+	{\global\let\CT@do@color\CT@@do@color\@ifnextchar[\CT@rowa\CT@rowb}% 
+	{\ifnum0=`{\fi}\@gooble@rowcolor}% 
+}
+
+\newcommand{\@gooble@rowcolor}[2][]{\@gooble@rowcolor@}
+\newcommand{\@gooble@rowcolor@}[1][]{\@gooble@rowcolor@@}
+\newcommand{\@gooble@rowcolor@@}[1][]{\ignorespaces}
+\makeatother
+
+
+
+\makeatletter
+\def\cellcolor{{\ifnum0=`}\fi\bmr@cellcolor}
+\newcommand<>{\bmr@cellcolor}{%
+    \alt#1%
+	{\global\let\CT@do@color\CT@@do@color\@ifnextchar[\CT@rowa\CT@rowb}%
+	 {\ifnum0=`{\fi}\@gooble@cellcolor}%
+}
+
+\newcommand{\@gooble@cellcolor}[2][]{\@gooble@cellcolor@}
+\newcommand{\@gooble@cellcolor@}[1][]{\@gooble@cellcolor@@}
+\newcommand{\@gooble@cellcolor@@}[1][]{\ignorespaces}
+
+\newcommand{\tablenameUn}{Tableau 1 : Temps de conversion en fonction du nombre de fiches}
+
+
+
+\def\sectionintoc{}
+\def\beamer@sectionintoc#1#2#3#4#5{%
+\ifnum\c@tocdepth>0%
+\ifnum#4=\beamer@showpartnumber%
+{
+  \beamer@saveanother%
+  \gdef\beamer@todo{}%
+  \beamer@slideinframe=#1\relax%
+  \expandafter\only\beamer@tocsections{\gdef\beamer@todo{%
+      \beamer@tempcount=#5\relax%
+      \advance\beamer@tempcount by\beamer@sectionadjust%
+      \edef\inserttocsectionnumber{\the\beamer@tempcount}%
+      \def\inserttocsection{\hyperlink{Navigation#3}{#2}}%
+      \beamer@tocifnothide{\ifnum\c@section=#1\beamer@toc@cs\else\beamer@toc@os\fi}%
+      {
+        \ifbeamer@pausesections\pause\fi%
+        \ifx\beamer@toc@ooss\beamer@hidetext
+          \vskip1em
+        \else
+          \vfill
+        \fi
+        {%
+          \hbox{\vbox{%
+              \def\beamer@breakhere{\\}%
+              \beamer@tocact{\ifnum\c@section=#1\beamer@toc@cs\else\beamer@toc@os\fi}    {section in toc}}}%
+         \par%
+        }%
+      }%
+    }
+  }%
+  \beamer@restoreanother%
+  }
+  \beamer@todo%
+  \fi\fi%
+}
+
+
+
+\makeatother
+% end code pour pouvoir mettre des cellcolor qui dépendent de la frame
+
+
+\title{Présentation de projet EDTS}
+\date{\today}
+\author{Zhaolun Wang et Zenan Xu}
+\institute{\insa}
+
+\setbeameroption{show notes}
+
+\begin{document}
+
+
+\begin{frame}[plain]
+	\titlepage
+\end{frame}
+
+\begin{frame}{Sommaire}
+	\tableofcontents[hideallsubsections]
+\end{frame}
+
+\section[Introduction]{Introduction}
+\subsection{}
+
+%\input{sources/1_intro}
+
+
+\section[Objectifs]{Objectifs du projet}
+\subsection{}
+%\input{sources/2_objectifs}
+
+\section[Prérequis]{Prérequis technologique}
+\subsection{}
+%\input{sources/3_specifications}
+
+
+\section[Réalisation]{Réalisation du projet}
+\subsection{}
+%\input{sources/4_fonctionnalite}
+
+\section{Gestion de projet}
+\subsection{}
+%\input{sources/5_gestionProjet}
+
+\section[Qualité]{Management de la qualité}
+\subsection{}
+
+%\input{sources/6_qualite}
+
+\section[Conclusion]{Conclusion}
+\subsection{}
+
+%\input{sources/7_conclusion}
+\end{document}
+
+
+
+
+
+

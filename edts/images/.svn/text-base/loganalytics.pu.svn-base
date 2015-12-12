@@ -1,0 +1,19 @@
+@startuml
+
+node "GeoNode" {
+node "Analytics" {
+node "Affichage" {
+	[Séléction de faits]
+	[Carte]
+	[Diagrammes]
+	[Table]
+}
+
+Affichage -- Modèle
+
+node "Modèle" {
+	[Analyse]
+}
+}
+}
+@enduml

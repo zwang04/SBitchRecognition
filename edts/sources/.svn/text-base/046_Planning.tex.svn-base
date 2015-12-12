@@ -1,0 +1,21 @@
+\begin{frame}{Planning des sprints}
+	\begin{itemize}
+		\item Organisation pour le premier semestre~:
+		\pause
+		\begin{itemize}
+			\item 3 premières semaines~:
+				\begin{itemize}
+					\item Installation (Réseau, Environnements, GeoNode\dots);
+					\item Appropriation du sujet ;
+					\item Écriture des PQ, PGC, DSE ;
+					\item Formations.
+				\end{itemize}
+			\pause
+			\item 2 sprints de 2 semaines pour définir la base ;
+			\pause
+			\item 1 sprint de 4 semaines avec recette provisoire ;
+			\pause
+			\item 1 semaine de finalisation avec corrections suite à la recette provisoire.
+		\end{itemize}
+	\end{itemize}
+\end{frame}

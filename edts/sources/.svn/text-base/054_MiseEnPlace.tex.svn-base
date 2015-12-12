@@ -1,0 +1,127 @@
+
+\begin{frame}{Mise en place de la Qualité}
+
+\begin{itemize}
+ \item Organiser une réunion formelle de démarrage;
+ \item Faire les fiches de rôle, fiches de compétences, fiches de formation;
+ \item Définition des objectifs et des Indicateurs;
+ \item Rédiger le Plan Qualité (PQ);
+ \item Rédiger le Plan de Gestion des Configurations (PGC).
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{ Mise en place des indicateurs}
+\begin{itemize}
+	\item Objectifs de mise en place des indicateurs:
+		\begin{itemize}
+		\item Suivre l'avancement du projet;
+		\item Vérifier la conformité des produits;
+		\item Mesurer la réactivité du cycle de traitement des Faits Techniques;
+		\item Vérifier la continuité de la communication interne et externe à l'équipe;
+		\item Mesurer la satisfaction du client.
+		\end{itemize}
+	\item Tableau de Bord:
+	\begin{itemize}
+	 \item Permet de visualiser le respect des objectifs.
+	\end{itemize}
+
+	
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Indicateurs de charge}
+\begin{figure}[h]
+	    \centering
+	    \includegraphics[scale=0.5]{images/indicateurCharge.png}
+	    \caption{Indicateurs de charge}
+	    \label{fig:indicateur}
+	\end{figure}
+
+\end{frame}
+
+
+\begin{frame}{Mise en place des risques}
+\begin{itemize}
+	\item Étapes:
+		\begin{itemize}
+			\item Identifier les risques;
+			%\begin{itemize}
+			%\item Liées au planning;
+			%\item Competences; 
+			%\item Capacites techniques.
+			%\end{itemize}
+			
+			\item Suivre les risques;
+			\item Reduire les risques.
+		\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Exemple de risque}
+
+\begin{itemize}
+ \item Titre : Problèmes avec l'API métier
+ \item Probabilité: Peu probable;
+ \item Gravité: Maximale;
+ \item Criticité: Significative;
+ \item Pilote: Thomas Robert.
+\end{itemize}
+
+~\\
+
+%%%%%%%% tableau risques
+\definecolor{grave}{RGB}{100,17,40}
+\definecolor{tresHaute}{RGB}{150,58,58}
+\definecolor{haute}{RGB}{150,58,150}
+\definecolor{significative}{RGB}{100,58,150}
+\definecolor{moderee}{RGB}{58,110,177}
+\definecolor{faible}{RGB}{112,154,207}
+\definecolor{tresFaible}{RGB}{154,165,210}
+\begin{table}[H]
+\centering 
+ \tiny
+   
+
+ \begin{tabular}{l|lllll}
+  % use packages: color,colortbl
+
+  \rowcolor[gray]{0.70}
+  \cellcolor{white}  & très probable & probable & possible & peu probable & très improbable\\\hline
+  \cellcolor[gray]{0.70} maximum & \cellcolor{grave}\textcolor{white}{grave} & \cellcolor{grave}\textcolor{white}{grave} & \cellcolor{haute}\textcolor{white}{haute} & \cellcolor{significative}\textcolor{white}{significative} & \cellcolor{moderee}\textcolor{white}{modérée}\\
+  \cellcolor[gray]{0.70} importante & \cellcolor{tresHaute}\textcolor{white}{très haute} & \cellcolor{haute}\textcolor{white}{haute} & \cellcolor{significative}\textcolor{white}{significative} & \cellcolor{moderee}\textcolor{white}{modérée} & \cellcolor{moderee}\textcolor{white}{modérée}\\
+  \cellcolor[gray]{0.70} moyenne & \cellcolor{haute}\textcolor{white}{haute} & \cellcolor{significative}\textcolor{white}{significative} & \cellcolor{moderee}\textcolor{white}{modérée} & \cellcolor{moderee}\textcolor{white}{modérée} & \cellcolor{moderee}\textcolor{white}{modérée}\\
+  \cellcolor[gray]{0.70} mineure & \cellcolor{significative}\textcolor{white}{significative} & \cellcolor{moderee}\textcolor{white}{modérée} & \cellcolor{moderee}\textcolor{white}{modérée} & \cellcolor{faible}\textcolor{white}{faible} & \cellcolor{tresFaible}\textcolor{white}{très faible}\\
+  \cellcolor[gray]{0.70} negligeable & \cellcolor{moderee}\textcolor{white}{modérée} & \cellcolor{moderee}\textcolor{white}{modérée} & \cellcolor{faible}\textcolor{white}{faible} & \cellcolor{tresFaible}\textcolor{white}{très faible} & \cellcolor{tresFaible}\textcolor{white}{très faible}
+\end{tabular}
+\caption{Les criticités des risques}
+\label{prioriteRisque}
+\end{table}
+
+\end{frame}
+
+\begin{frame}{Mise en place du cycle correctif}
+
+%Fiche des Faits Techniques(FFT)
+%Ordre de Correction (OC)
+%Commission de Traitement des Faits Techniques (CTFT)
+\begin{itemize}
+    \item Analyse de causes; 
+    \item Analyse à froid $\Rightarrow$ Lancer les actions preventives et correctives.
+\end{itemize}
+\begin{figure}[h]
+	    \centering
+	    \includegraphics[scale=0.4]{images/cycleFT.pdf}
+	    \caption{Cycle correctif}
+	    \label{fig:cycleFT}
+	\end{figure}
+	\tiny{
+	OC: Ordre de correction\\
+	FFT: Fiche de Fait Technique\\
+	CTFT: Commission de Traitement des Faits Techniques\\
+	
+	}
+\end{frame}
+
+
+

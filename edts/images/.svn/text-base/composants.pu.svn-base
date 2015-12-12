@@ -1,0 +1,18 @@
+@startuml
+
+node "GeoNode" {
+	[analytics]
+}
+
+[analytics] -- solap4py
+
+node "solap4py" {
+
+}
+
+solap4py -- GeoMondrian
+
+database "GeoMondrian" {
+}
+
+@enduml

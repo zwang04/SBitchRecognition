@@ -1,0 +1,24 @@
+@startuml
+
+node "GeoNode" {
+	[analytics]
+}
+
+[analytics] -- solap4py
+
+skinparam node {
+    borderColor red
+    FontSize 20
+}
+
+node "solap4py" {
+
+}
+
+
+solap4py -- GeoMondrian
+
+database "GeoMondrian" {
+}
+
+@enduml

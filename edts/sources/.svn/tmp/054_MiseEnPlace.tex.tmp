@@ -1,0 +1,105 @@
+\begin{frame}{Mise en place de la Qualité }
+
+\begin{itemize}
+ \item Organiser une réunion formelle de démarrage;
+ \item Faire les fiches de rôle, fiches de compétences, fiches de formation;
+ \item Définition des objectifs et les Indicateurs;
+ \item Rédiger le Plan Qualité (PQ);
+ \item Rédiger le Plan de Gestion des Configurations (PGC).
+ 
+\end{itemize}
+
+\end{frame}
+
+<<<<<<< .mine
+=======
+\begin{frame}{Tableau de Bord}
+\begin{itemize}
+	\item Permet de visualiser le respect des objectifs:
+		\begin{itemize}
+			\item Assurer l'avancement du projet;
+			\item Assurer la conformité des produits;
+			\item Assurer le respect des délais;
+			\item Assurer une bonne communication;
+			\item Assurer l'efficience du traitement des Faits Techniques.
+		\end{itemize}
+\end{itemize}
+\end{frame}
+
+>>>>>>> .r239
+\begin{frame}{ Mise en place des indicateurs}
+\begin{itemize}
+	\item Objectifs de mise en place des indicateurs:
+		\begin{itemize}
+		\item Suivre l'avancement du projet;
+		\item Vérifier la conformité des produits;
+		\item Mesurer la réactivité du cycle de traitement des Faits Techniques;
+		\item Vérifier la continuité de la communication interne et externe à l'équipe;
+		\item Mesurer la satisfaction du client.
+		\end{itemize}
+	\\
+	\item Tableau de Bord:
+	\begin{itemize}
+	 \item Permet de visualiser le respect des objectifs.
+	\end{itemize}
+
+	
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Indicateurs de charge}
+\begin{figure}[h]
+	    \centering
+	    \includegraphics[scale=0.5]{images/indicateur.png}
+	    \caption{Indicateurs de charge}
+	    \label{fig:indicateur}
+	\end{figure}
+
+\end{frame}
+
+
+\begin{frame}{Mise en place des risques}
+\begin{itemize}
+	\item Étapes:
+		\begin{itemize}
+			\item Identifier les risques(liées au planning,competences ou capacites techniques);
+			\item Suivre les risques;
+			\item Reduire les risques.
+		\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Exemple de risque}
+
+
+\end{frame}
+
+\begin{frame}{Mise en place cycle correctif}
+
+%Fiche des Faits Techniques(FFT)
+%Ordre de Correction (OC)
+%Commission de Traitement des Faits Techniques (CTFT)
+\begin{itemize}
+    \item Analyse de causes (Les 5 Pourquoi)
+    \item Analyse à froid $\Rightarrow$ Lancer les actions preventives et correctives
+\end{itemize}
+\begin{figure}[h]
+	    \centering
+	    \includegraphics[scale=0.4]{images/cycleFT.pdf}
+	    \caption{Cycle correctif}
+	    \label{fig:cycleFT}
+	\end{figure}
+	\tiny{
+	FFT: Fiche de Fait Technique\\
+	CTFT: Commission de Traitement des Faits Techniques
+	}
+\end{frame}
+
+\begin{frame}{Amélioration de la Qualité}
+
+\begin{itemize}
+ \item Revoir/Redéfinir les objectifs Qualité;
+ \item Mettre à jour régulièrement le PQ et le PGC.
+\end{itemize}
+
+\end{frame}

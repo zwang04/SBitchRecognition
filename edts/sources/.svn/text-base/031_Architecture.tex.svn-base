@@ -1,0 +1,56 @@
+\frame{
+	\frametitle{Architecture générale}
+	\begin{figure}[h]
+	    \centering
+	    \includegraphics[scale=0.5]{images/composants.png}
+	    \caption{Principaux composants}
+	    \label{fig:composants}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{GeoNode}
+	\begin{tikzpicture}[overlay]
+		\node at (10,-2) {\includegraphics[scale=0.5]{images/composants-geonode.png}};
+	\end{tikzpicture}
+	\begin{itemize}
+		\item  Geonode:
+		\begin{itemize}
+			\item Site web;
+			\item Données géographiques;
+			\item Django (python);
+			\item Libre.
+		\end{itemize}
+		\pause
+		\item Fonctionnalités de base:
+		\begin{itemize}
+			\item Cartes;
+			\item Couches;
+			\item Documents.
+		\end{itemize}
+	\end{itemize}
+}
+
+\frame{
+	\frametitle{Intégration à GeoNode}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.45]{images/loganalytics.png}
+		\caption{Extension de Geonode}
+		\label{fig:loganalytics}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{GeoMondrian}
+	\begin{tikzpicture}[overlay]
+		\node at (10,-1) {\includegraphics[scale=0.5]{images/composants-geomondrian.png}};
+	\end{tikzpicture}
+	\begin{itemize}
+		\item Business Intelligence;
+		\item Données Géographiques;
+		\item Libre.
+	\end{itemize}
+}
+
+

@@ -1,0 +1,38 @@
+% version 1
+%\begin{frame}{Objectifs de la maquette}
+
+%\begin{itemize}
+%\item Être un outil développé sur la base des spécifications fonctionnelles;
+  %\pause
+%\item Donner une idée exacte du future comportement de l'application;
+  %\pause
+%\item Montrer les caractéristiques attendues en terme d'apparence.
+%\end{itemize}
+
+
+
+%\end{frame}
+
+\begin{frame}{Maquette -- Onglet Analysis}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.32]{images/maquette.png}
+		\caption{La maquette de la nouvelle fonctionnalité \emph{Analysis}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Maquette -- Outil Analysis}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.32]{images/maquette2.png}
+		\caption{Exemple d'analyse}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Maquette -- Outil Analysis}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.32]{images/maquette3.png}
+		\caption{Exemple d'analyse}
+	\end{figure}
+\end{frame}

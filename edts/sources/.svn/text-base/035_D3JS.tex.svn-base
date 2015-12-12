@@ -1,0 +1,52 @@
+
+\begin{frame}{Présentation de D3.js}
+
+	\begin{itemize}
+		\item \emph{Data-driven documents - A modern approach to data and graphs on the web}
+        \item Une bibliothèque JavaScript légère et libre;
+         \pause
+        \item Permet de manipuler et représenter graphiquement des données;
+         \pause
+        \item S'appuie sur des technologies web standards (HTML5, CSS3 et SVG) pour afficher des données;
+         \pause
+        \item Permet d'interagir avec l'affichage.
+                  % \item Va atacher les données aux objets DOM et les manipuler.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Alternatives -- tableau comparatif} 
+\begin{itemize}
+	\item Bibliothèques JavaScript pour visualiser des données:
+\end{itemize}
+  
+  \begin{table}
+    \small
+    \centering
+    \begin{tabular}{|m{3.1cm}|c|c|c|c|}
+      \hline 
+                  & D3.js & jqPlot & Dojo & GoogleChartTools\\
+      \hline
+      Open Source & oui   &  oui   &  oui &\cellcolor{red} \textcolor{white}{non}\\
+      \hline
+      Affichage des zones géographiques & oui & \cellcolor{red} \textcolor{white}{non} &\cellcolor{white} oui & oui\\
+      \hline
+      Faire du zoom & oui & oui & oui &\cellcolor{red} \textcolor{white}{non}\\
+      \hline
+      Axe temporel & oui & oui &\cellcolor{red} \textcolor{white}{non} &\cellcolor{white}oui\\
+      \hline
+      Nombre de possibilités pour visualiser les données & énorme &  moyen   &  moyen & grand\\
+      \hline
+
+    \end{tabular}
+    \caption{Tableau comparatif}
+  \end{table}
+\end{frame}
+
+\begin{frame}{Puissance de D3.js}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=9cm]{images/d3image}
+		\caption{D3.js est d'une richesse et d'une flexibilité inégalée}
+	\end{figure}
+
+\end{frame}
