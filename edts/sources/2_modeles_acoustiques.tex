@@ -1,51 +1,34 @@
-\begin{frame}{Les Modèle de Markov Caché(MMC) ou Hidden Markov Model(HMM)}
-
-\begin{block}{Définition}
-Un modèle de Markov caché (MMC) est un modèle
-statistique permettant de représenter un processus
-de Markov dont l’état est non observable. 
-	\end{block}
-	\begin{block}{Processus markov(Chaîne de Markov)}
-	En mathématiques, un processus de Markov est un processus stochastique possédant la propriété de Markov. Dans un tel processus, la prédiction du futur à partir du présent n'est pas rendue plus précise par des éléments d'information concernant le passé.
-	\end{block}
+\begin{frame}{Traitement acoustique : extraction de paramètres}
+	\begin{itemize}
+	\item MFCC(Mel Frequency Cepstral Coeficients)
+	\item LPCC(Linear Predictive Cepstral Coeficients)
+	\item PLP(Perceptuqal Linear Predictive analysis)
+	\end{itemize}
 \end{frame}
 
+\begin{frame}{Décodage acoustique et apprentissage}
 
-\begin{frame}{Un exemple illustratif de HMM}
-\begin{figure}
-\centering
-\includegraphics[width=8cm]{images/hmm.png}
-\caption{Un exemple de HMM}
-\end{figure}
-\end{frame}
-
-
-
-\begin{frame}{Un exemple illustratif de HMM}
-
-\begin{figure}
-\centering
-\includegraphics[width=8cm]{images/hmm1.png}
-\caption{Un exemple de HMM}
-\end{figure}
 \begin{itemize}
-\item Les états observés : 1 6 3 5 2 7 3 5 2 4
-\item Les états cachés : D6 D8 D8 D6 D4 D8 D6 D4 D8
+\item Chaînes et modèles de Markov cachés  
+\item Critère du maximum de vraisemblance
+\item Critère de Viterbi
 \end{itemize}
 
 \end{frame}
 
-\begin{frame}{Algorithm de Viterbi}
-
+\begin{frame}{Adaptation}
 \begin{itemize}
-\item L’algorithme de Viterbi permet de calculer
-la valeur la plus probable des états cachés du processus
-étant donneê des données observables. 
+\item Méthode MLLR
+\item Méthode MAP
 \end{itemize}
 
 \end{frame}
 
-\begin{frame}{Modèle acoustique}
-
-	
+\begin{frame}{Création du Modèle acoustique en utilisant Sphinxtrain}
+Les données d'entrées sont composés, entre autre:
+\begin{itemize}
+\item d'un ensemble de fichiers acoustiques(corpus).
+\item d'un fichier de transcription qui contient l'ensemble de mots prononcés pour chaque enregistrement(fichier acoustique).
+\item d'un fichier qui définie la liste des phonèmes utilisées.
+\end{itemize}
 \end{frame}
