@@ -1,7 +1,7 @@
 \begin{frame}{Objectif}
 
 \begin{itemize}
-\item Reconnaissance de parole en utilisant HMM basé sur CMU Sphinx
+\item Reconnaissance de parole française en utilisant HMM basé sur CMU Sphinx
 \end{itemize}
 
 \end{frame}
@@ -14,7 +14,7 @@ statistique permettant de représenter un processus
 de Markov dont l’état est non observable. 
 	\end{block}
 	\begin{block}{Processus markov(Chaîne de Markov)}
-	En mathématiques, un processus de Markov est un processus stochastique possédant la propriété de Markov. Dans un tel processus, la prédiction du futur à partir du présent n'est pas rendue plus précise par des éléments d'information concernant le passé.
+	En mathématiques, un processus de Markov est un processus stochastique possédant la propriété de Markov. Dans un tel processus, toute l'information utile pour la prédiction du futur est contenue dans l'état présent du processus.
 	\end{block}
 \end{frame}
 
@@ -51,16 +51,6 @@ de Markov dont l’état est non observable.
 
 \end{frame}
 
-\begin{frame}{Algorithm de Viterbi}
-
-\begin{itemize}
-\item L’algorithme de Viterbi permet de calculer
-la valeur la plus probable des états cachés du processus
-étant donnée des données observables. 
-\end{itemize}
-
-\end{frame}
-
 
 \begin{frame}{L'Outil CMU Sphinx}
 Les CMU Sphinx comprend entre autres les outils suivants:
@@ -76,7 +66,7 @@ Les CMU Sphinx comprend entre autres les outils suivants:
 \end{frame}
 
 \begin{frame}{Les Modèle de Markov Caché en speech to text}
-Nous considérons un signal acoustique S, le principe de la reconnaissance peut être expliqué comme le calcul de la probabilité P(W|S) qu'une suite de mots (ou phrase) W correspond au signal acoustique S, et de déterminer la suite de mots qui peut maximiser cette probabilité.
+Nous considérons un signal acoustique S, le principe de la reconnaissance peut être expliqué comme le calcul de la probabilité P(W|S) avec W qui est une suite de mots (ou phrase) correspond au signal acoustique S, et de déterminer la suite de mots qui peut maximiser cette probabilité.
 En utilisant la formule de Bayes, P(W|S) peut s'écrire:
 \begin{figure}
 \centering
