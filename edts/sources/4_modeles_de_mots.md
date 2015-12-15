@@ -1,14 +1,14 @@
-Le modèle de mot est la dictonaire phonétique qui contiens a map des mot et des chaines de caractère correspondants.
+Le modèle de mot est la dictonaire phonétique qui contiens une map des mot et des chaines de caractère correspondants.
 
-Franchement dit, notre dictionaire n'est pas hyper efficace. Par exemple, il y a qu'une pronunciation variante (2 ou 3 pour certaines mots) est noté dans le dictionaire pour chaque mot, mais c'est pratique à utiliser plupart de temps, surtout quand on a pas trop de temps a réaliser notre programme.
+Franchement dit, notre dictionaire n'est pas hyper efficace. Par exemple, il y a qu'une pronunciation variante (2 ou 3 pour certaines mots) est noté dans le dictionaire pour chaque mot, mais c'est pratique à utiliser aux plupart de temps, surtout quand on a pas trop de temps a réaliser notre programme.
 
-Heuresement, la dictionaire n'est pas la seul map qui contiens des mots comme key et des prononciation comme value. Il pourra également être fait par des function complex qui prenne un alogrithme de machine learning.
+Heuresement, la dictionaire n'est pas la seul map qu'on pourra avoir qui contiens des mots comme key et des prononciation comme value. Il pourra également être fait par des function complex qui prenne un alogrithme de machine learning.
 
 Création de dictionaire:
 
 Il existe plusieur outils qui permettent de générer une dictionnaire de rien ou d'extendre une dictionnaire existante.
 
-Si vous voulez générer une dictionnaire, vous devait penser à des réductions et des effets de coarticulation. Ils sont complex pour créer des régles exactes pour convertir les text au son.
+Si vous voulez générer une dictionnaire, vous devait penser à des réductions et des effets de coarticulation. Ils sont complex pour créer des régles exactes pour convertir les text au prononciation.
 
 Pour plupart de language, on doit utiliser des code grapheme to phoneme (g2p) spécialisé pour faire la conversion en utilisant des méthodes machine learning et des petit database existant:
 
