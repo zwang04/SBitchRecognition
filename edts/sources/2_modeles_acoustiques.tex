@@ -22,7 +22,7 @@
 \item Découpage du signal en fenêtre
 \item Application d’une fenêtre de Hamming
 \item Création du banc de filtres
-\item Conversion en echelle de mel
+\item Conversion en échelle de mel
 \item Application d’une DCT (Discrete Cosinus Transform) sur les portions
 \end{itemize}
 \end{frame}
@@ -38,10 +38,12 @@
 \end{frame}
 
 \begin{frame}{Adaptation}
-\begin{itemize}
-\item Méthode MLLR
-\item Méthode MAP
-\end{itemize}
+\begin{block}{Méthode MLLR}
+La méthode MLLR qui signifie Maximum Likelihood Linear Regression permet d’adapter des modèles acoustiques par régression linéaire.
+\end{block}
+\begin{block}{Méthode MAP}
+La méthode MAP pour estimation du Maximum à postériori est une méthode bayésienne. Elle permet de modifier les paramètres d’un modèle générique pour se rapprocher des données de test.
+\end{block}
 
 \end{frame}
 
